@@ -70,7 +70,7 @@
         line-height: 48px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 35px;
     }
     p {
         font-size: 13px;
@@ -104,5 +104,30 @@
     /* Contact wrapper */
     .contact_wrapper {
         background-image: none;
+    }
+    .contact_wrapper .row .call_details {
+        background-color: var(--primary-color);
+        padding: 15px 0 0 0;
+    }
+    .contact_wrapper .row .call_details {
+        font-size: 15px;
+        color: #ffffff85;
+    }
+    .contact_wrapper .row .call_details a {
+        font-weight: 700;
+        color: #ffffff85;
+        text-align: center;
+    }
+    .contact_wrapper .call_details a:hover {
+        color: var(--text-white);
+    }
+    .contact_wrapper form {
+        background-color: var(--bg-white);
+        padding: 15px 15px 15px 15px;
+        border: 1px solid var(--primary-color);
+        border-radius: 4px;
+    }
+    .contact_wrapper form:hover {
+        box-shadow: 0 0 15px 0 var(--primary-color);
     }
 }

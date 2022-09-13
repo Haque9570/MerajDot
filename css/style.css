@@ -28,8 +28,10 @@
     /* Text Color*/
     --primary-font: 'Poopins', sans-serif;
     --primary-text: #fd4766;
+    --text-dark-blue: #00061b;
     --text-gray: gray;
     --text-white: white;
+    --text-gradient: linear-gradient(120deg, #f7aeae 20.69%, #EA8D8D 50.19%, var(--primary-color) 79.69%);
 }
 
 body {
@@ -98,7 +100,7 @@ h2 {
     font-size: 50px;
     line-height: 1.3;
     font-weight: 600;
-    color: var(--text-white);
+    color: var(--primary-color);
     margin-bottom: 15px;
 }
 
