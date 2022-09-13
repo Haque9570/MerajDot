@@ -49,6 +49,13 @@
     .portfolio_wrapper .card {
         min-height: 650px;
     }
+    /* Contact wrapper */
+    .contact_wrapper {
+        background-image: none;
+    }
+    .contact_wrapper .call_details {
+        text-align: center;
+    }
     /* Footer */
     .footer_wrapper {
         background-color: #000411;
@@ -73,8 +80,8 @@
     .banner_wrapper {
         width: 100%;
         height: auto;
-        min-height: 555px;
-        background-image: url('../images/bgMob1.png');
+        min-height: 650px;
+        background-image: url('../images/Mob1.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -93,5 +100,9 @@
     /* Portfolio */
     .portfolio_wrapper .card {
         min-height: 400px;
+    }
+    /* Contact wrapper */
+    .contact_wrapper {
+        background-image: none;
     }
 }
